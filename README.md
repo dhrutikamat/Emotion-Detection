@@ -13,13 +13,13 @@ This project is an implementation of facial emotion detection using deep learnin
 ● Model Training:
 1. A MobileNet model pre-trained on the ImageNet dataset is used as the base.
 2. The model is fine-tuned with a custom dataset of 28,709 images categorized into seven classes.
-3. The dataset is augmented using data generators to increase variety.
+3. The dataset is augmented using ImagedataGenerators to increase variety.
 4. The model is trained with callbacks such as Early Stopping and Model Checkpoints to ensure optimal performance and prevent overfitting.
 5. The best model is saved as best_model.keras for deployment.
 
 ● Real-Time Emotion Detection:
 1. The trained model is used to make predictions on video frames captured from the webcam.
-2. OpenCV's Haar cascade classifier detects faces in each frame, and the region of interest (ROI) is extracted.
+2. OpenCV's face_haar_cascade classifier detects faces in each frame, and the region of interest (ROI) is extracted.
 3. The ROI is resized and fed into the model to predict the emotion, which is then displayed on the screen.
    
 ● Visualization and Analysis:
