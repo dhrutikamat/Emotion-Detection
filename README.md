@@ -4,10 +4,10 @@
 This project is an implementation of facial emotion detection using deep learning techniques. It leverages a pre-trained MobileNet model, along with OpenCV and Keras libraries, to accurately classify human emotions from real-time video frames captured through a webcam. The model can classify emotions into seven categories: angry, disgust, fear, happy, neutral, sad, and surprise. The primary objective of this project is to create a system that can recognize and analyze emotions, which can have practical applications in human-computer interaction, behavioral analysis, and customer service enhancements.
 
 # Libraries Used
-TensorFlow/Keras: For building and training the neural network.
-OpenCV: For real-time video processing and face detection.
-NumPy: For handling image data.
-Matplotlib: For visualizing model performance.
+1. TensorFlow/Keras: For building and training the neural network.
+2. OpenCV: For real-time video processing and face detection.
+3. NumPy: For handling image data.
+4. Matplotlib: For visualizing model performance.
 
 # Project Structure and Functionality
 ● Model Training:
@@ -27,5 +27,5 @@ Matplotlib: For visualizing model performance.
 2. Sample images from the training data are displayed to visualize the input data.
 
 # Result
-With a well-trained model, the emotion detection system achieved promising results, effectively classifying emotions with high accuracy. The productivity impact of this system depends on its integration into real-world applications, providing meaningful insights and responses based on human emotions. # The trained model achieves an accuracy of around 70% on the validation set.
+With a well-trained model, the emotion detection system achieved promising results, effectively classifying emotions with high accuracy. The productivity impact of this system depends on its integration into real-world applications, providing meaningful insights and responses based on human emotions. The trained model achieves an accuracy of around 70% on the validation set.
 
